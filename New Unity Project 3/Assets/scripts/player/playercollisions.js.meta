@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f9a8141c027375f4599c26fb80ead76e
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - door_open_sound: {instanceID: 0}
+  - door_shut_sound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
