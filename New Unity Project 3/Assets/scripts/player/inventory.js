@@ -24,6 +24,9 @@ function cellpickup () {
 	AudioSource.PlayClipAtPoint(collectSound,transform.position);
 	charge++;
 	// 替换GUITexture的texture
+	if(charge>4){
+		charge=4;
+	}
 	powergui_bl.texture=textures[charge];
 	// 替换 Renderer下的material.mainTexture
 	chargemeter_bl.material.mainTexture=main_texture[charge];

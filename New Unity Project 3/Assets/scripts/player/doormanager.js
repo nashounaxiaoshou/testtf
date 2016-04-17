@@ -20,7 +20,7 @@ function Update(){
 	} 
 	if(wenzi_bl.enabled){
 		wenzi_time+=Time.deltaTime;
-		if(wenzi_time>4.0){
+		if(wenzi_time>8.0){
 			wenzi_bl.enabled=false;
 			wenzi_time = 0;
 		}

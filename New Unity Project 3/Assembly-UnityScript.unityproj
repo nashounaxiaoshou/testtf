@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\scripts\coconut_remove.js" />
      <Compile Include="Assets\scripts\coconut_thrower.js" />
+     <Compile Include="Assets\scripts\coconutwin.js" />
      <Compile Include="Assets\scripts\java1.js" />
      <Compile Include="Assets\scripts\mat.js" />
      <Compile Include="Assets\scripts\player\OnCollisionEnter.js" />
@@ -58,8 +59,10 @@
      <Compile Include="Assets\scripts\player\playercollisions.js" />
      <Compile Include="Assets\scripts\player\tig.js" />
      <Compile Include="Assets\scripts\powerCell.js" />
+     <Compile Include="Assets\scripts\powerholder_start.js" />
      <Compile Include="Assets\scripts\random.js" />
      <Compile Include="Assets\scripts\sum2.js" />
+     <Compile Include="Assets\scripts\targetcollision.js" />
      <Compile Include="Assets\scripts\zj.js" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
   </ItemGroup>

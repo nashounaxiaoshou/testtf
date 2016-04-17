@@ -36,7 +36,7 @@ ModelImporter:
     6400006: target_support_1
     6400008: target_support_2
     7400000: up
-    7400002: Take 0012
+    7400002: up
     7400004: down
     7400008: Take 001
     7400010: idle
@@ -51,7 +51,6 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     optimizeGameObjects: 0
-    motionNodeName: 
     animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
@@ -98,11 +97,49 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 35.9000015
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: target_base
+        weight: 1
+      - path: target_pivot
+        weight: 1
+      - path: target_pivot/target
+        weight: 1
+      - path: target_pivot/target_support_1
+        weight: 1
+      - path: target_pivot/target_support_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
       name: down
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 15
-      wrapMode: 1
+      lastFrame: 4
+      wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -138,46 +175,8 @@ ModelImporter:
     - serializedVersion: 16
       name: up
       takeName: Take 001
-      firstFrame: 15
-      lastFrame: 36
-      wrapMode: 1
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 1
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: target_base
-        weight: 1
-      - path: target_pivot
-        weight: 1
-      - path: target_pivot/target
-        weight: 1
-      - path: target_pivot/target_support_1
-        weight: 1
-      - path: target_pivot/target_support_2
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-    - serializedVersion: 16
-      name: idle
-      takeName: Take 001
-      firstFrame: 35.9000015
-      lastFrame: 36
+      firstFrame: 16
+      lastFrame: 35.9000015
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

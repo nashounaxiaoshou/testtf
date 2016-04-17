@@ -23,6 +23,7 @@ function Update () {
 		var newcoconut:Rigidbody = Instantiate(coconut_bl,transform.position,transform.rotation);
 		// 给物体速度
 		newcoconut.velocity = transform.forward*30;
+		newcoconut.name = "coconut";
 		
 		// 忽视碰撞 true:不碰撞 false:碰撞
 	//	Physics.IgnoreCollision(coconutshy_bl.collider,newcoconut.collider,true);
