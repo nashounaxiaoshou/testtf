@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\3_3\button.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\coconutwin.js">
     <Files>
-      <File FileName="Assets\scripts\3_3\button.js" Line="22" Column="26" />
-      <File FileName="Assets\scripts\3_3\xuanzhuan.js" Line="8" Column="7" />
+      <File FileName="Assets\scripts\mat.js" Line="17" Column="14" />
+      <File FileName="Assets\scripts\coconutwin.js" Line="71" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
