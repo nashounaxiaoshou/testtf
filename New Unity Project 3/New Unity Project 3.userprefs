@@ -1,11 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\targetcollision.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\player\move1.js">
     <Files>
-      <File FileName="New Unity Project 3.sln" Line="1" Column="1" />
       <File FileName="Assets\scripts\targetcollision.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\targetcollision.js" Line="34" Column="13" />
       <File FileName="Assets\scripts\coconut_thrower.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\3_3\OnControllerColliderHit.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\3_3\raycast1.js" Line="11" Column="44" />
+      <File FileName="Assets\scripts\player\OnCollisionEnter.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\player\move1.js" Line="3" Column="2" />
+      <File FileName="Assets\scripts\player\Tigger.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
