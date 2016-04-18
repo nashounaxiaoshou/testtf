@@ -1,11 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\targetcollision.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\c1.cs">
     <Files>
-      <File FileName="New Unity Project 3.sln" Line="1" Column="1" />
-      <File FileName="Assets\scripts\targetcollision.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\targetcollision.js" Line="34" Column="13" />
-      <File FileName="Assets\scripts\coconut_thrower.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\c1.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
