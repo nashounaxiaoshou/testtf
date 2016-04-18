@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\scripts\3_3\OnControllerColliderHit.js" />
+     <Compile Include="Assets\scripts\3_3\button.js" />
      <Compile Include="Assets\scripts\3_3\raycast1.js" />
+     <Compile Include="Assets\scripts\3_3\xuanzhuan.js" />
      <Compile Include="Assets\scripts\coconut_remove.js" />
      <Compile Include="Assets\scripts\coconut_thrower.js" />
      <Compile Include="Assets\scripts\coconutwin.js" />
