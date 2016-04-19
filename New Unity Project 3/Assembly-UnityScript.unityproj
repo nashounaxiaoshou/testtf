@@ -59,6 +59,7 @@
      <Compile Include="Assets\scripts\player\Tigger.js" />
      <Compile Include="Assets\scripts\player\doormanager.js" />
      <Compile Include="Assets\scripts\player\inventory.js" />
+     <Compile Include="Assets\scripts\player\match.js" />
      <Compile Include="Assets\scripts\player\move1.js" />
      <Compile Include="Assets\scripts\player\playercollisions.js" />
      <Compile Include="Assets\scripts\player\tig.js" />
@@ -68,6 +69,7 @@
      <Compile Include="Assets\scripts\sum2.js" />
      <Compile Include="Assets\scripts\targetcollision.js" />
      <Compile Include="Assets\scripts\zj.js" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
   </ItemGroup>
   <ItemGroup>

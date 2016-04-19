@@ -10,6 +10,7 @@ var powergui_bl:GUITexture;// 电池纹理
 // 仪表盘主材质纹理数组与表盘
 var main_texture:Texture2D[];
 var chargemeter_bl:Renderer;// 仪表盘
+var matchgui_bl:GUITexture;// 火柴
 
 function Start () {
 	charge = 0;
@@ -30,4 +31,12 @@ function cellpickup () {
 	powergui_bl.texture=textures[charge];
 	// 替换 Renderer下的material.mainTexture
 	chargemeter_bl.material.mainTexture=main_texture[charge];
+}
+// 拾取火柴的函数
+function matchpickup(){
+	//开始显示 matchgui==hub
+	if(!matchgui_bl.enabled){
+		matchgui_bl.enabled=true;
+	}
+	AudioSource.PlayClipAtPoint(collectSound,transform.position);
 }
