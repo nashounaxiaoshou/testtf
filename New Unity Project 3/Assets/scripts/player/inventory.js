@@ -11,6 +11,7 @@ var powergui_bl:GUITexture;// 电池纹理
 var main_texture:Texture2D[];
 var chargemeter_bl:Renderer;// 仪表盘
 var matchgui_bl:GUITexture;// 火柴
+static var havematch:boolean;// 是否有火柴
 
 function Start () {
 	charge = 0;
@@ -37,6 +38,8 @@ function matchpickup(){
 	//开始显示 matchgui==hub
 	if(!matchgui_bl.enabled){
 		matchgui_bl.enabled=true;
+		
+		havematch = true;
 	}
 	AudioSource.PlayClipAtPoint(collectSound,transform.position);
 }

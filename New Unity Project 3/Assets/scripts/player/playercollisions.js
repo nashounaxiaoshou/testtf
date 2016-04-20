@@ -1,5 +1,5 @@
 ﻿#pragma strict
-
+/*
 	private var doorisopen:boolean = false;//设定门的开关状态
 	private var doortimer:float = 0.0;//	门已经开了多长时间
 	private var currentdoor:GameObject;// 当前门
@@ -7,7 +7,7 @@
 	var door_open_time:float=3.0;// 门打开多久关闭
 	var door_open_sound:AudioClip;
 	var door_shut_sound:AudioClip;	
-
+*/
 //function Update(){
 //	if(doorisopen){//如果门是开着的
 //		doortimer+= Time.deltaTime;
@@ -19,7 +19,7 @@
 //		}
 //	} 
 //}
-
+/*
 // 角色控制器和其他碰撞器发生碰撞的函数
 function OnControllerColliderHit(hit:ControllerColliderHit){
 	
@@ -55,3 +55,38 @@ function door(doorcheck:boolean,a_clip:AudioClip,anim_name:String,thisdoor:GameO
 	thisdoor.audio.PlayOneShot(a_clip);
 	thisdoor.transform.parent.animation.Play(anim_name);
 }
+*/
+
+// 篝火是否被点燃
+var campfire_tf:boolean = false;
+// 篝火的点光源
+var Pointlight1_bl:Light;
+// 篝火的烟
+var smoke_bl:GameObject;
+// 篝火的火
+var fire_bl:GameObject;
+// 提示文字
+var wenzi_bl:GUIText;
+
+function OnControllerColliderHit(hit:ControllerColliderHit){
+	//print("hit.gameObject.tag = "+hit.gameObject.tag+" inventory.havematch = "+inventory.havematch+" campfire_tf="+campfire_tf);
+	if(hit.gameObject.tag=="campfire" && inventory.havematch==false){
+		//if(wenzi_bl.enabled==false){
+			wenzi_bl.enabled==true;
+		//}
+		wenzi_bl.text = "收集火柴才可以点燃篝火";
+	}
+	// 判断与角色控制器碰撞的物体的标签名 与角色碰撞 角色有火柴 篝火没有点着
+	if(hit.gameObject.tag=="campfire" && inventory.havematch==true && campfire_tf==false){
+	//	print("点燃篝火");
+		Pointlight1_bl.enabled = true;// 点亮灯
+		smoke_bl.renderer.enabled=true;// 烟开始
+		fire_bl.renderer.enabled=true;//火开始
+		
+		campfire_tf = true;
+		hit.gameObject.audio.Play();
+	}
+}
+
+
+
