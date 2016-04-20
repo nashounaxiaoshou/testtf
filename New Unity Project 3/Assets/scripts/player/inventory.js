@@ -7,10 +7,14 @@ var collectSound:AudioClip;// 收集到电池播放的声音
 // 电池图片数组与引用变量
 var textures:Texture2D[];
 var powergui_bl:GUITexture;// 电池纹理
+
+var matchgui_bl:GUITexture;// 火柴
+
 // 仪表盘主材质纹理数组与表盘
 var main_texture:Texture2D[];
-var chargemeter_bl:Renderer;// 仪表盘
-var matchgui_bl:GUITexture;// 火柴
+var chargemeter_bl:Renderer;// 仪表盘  
+
+
 static var havematch:boolean;// 是否有火柴
 
 function Start () {

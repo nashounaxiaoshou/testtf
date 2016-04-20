@@ -68,14 +68,11 @@ var fire_bl:GameObject;
 // 提示文字
 var wenzi_bl:GUIText;
 
+var matchgui_bl:GUITexture;// 火柴
+
 function OnControllerColliderHit(hit:ControllerColliderHit){
 	//print("hit.gameObject.tag = "+hit.gameObject.tag+" inventory.havematch = "+inventory.havematch+" campfire_tf="+campfire_tf);
-	if(hit.gameObject.tag=="campfire" && inventory.havematch==false){
-		//if(wenzi_bl.enabled==false){
-			wenzi_bl.enabled==true;
-		//}
-		wenzi_bl.text = "收集火柴才可以点燃篝火";
-	}
+
 	// 判断与角色控制器碰撞的物体的标签名 与角色碰撞 角色有火柴 篝火没有点着
 	if(hit.gameObject.tag=="campfire" && inventory.havematch==true && campfire_tf==false){
 	//	print("点燃篝火");
@@ -85,6 +82,15 @@ function OnControllerColliderHit(hit:ControllerColliderHit){
 		
 		campfire_tf = true;
 		hit.gameObject.audio.Play();
+		
+		inventory.havematch=false;// 火柴使用了
+		Destroy(matchgui_bl);// 销毁火柴
+	}
+	if(hit.gameObject.tag=="campfire" && inventory.havematch==false && campfire_tf==false){
+		if(!wenzi_bl.enabled){
+			wenzi_bl.enabled=true;
+		}
+		wenzi_bl.text = "收集火柴才可以点燃篝火";
 	}
 }
 
