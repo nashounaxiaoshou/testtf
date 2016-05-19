@@ -1,8 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\player\inventory.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\moon.js">
     <Files>
       <File FileName="Assets\scripts\player\inventory.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\player\playercollisions.js" Line="89" Column="70" />
+      <File FileName="Assets\scripts\3_3\button.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\3_3\xuanzhuan.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\moon.js" Line="13" Column="53" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -86,7 +86,7 @@ function OnControllerColliderHit(hit:ControllerColliderHit){
 		inventory.havematch=false;// 火柴使用了
 		Destroy(matchgui_bl);// 销毁火柴
 	}
-	if(hit.gameObject.tag=="campfire" && inventory.havematch==false && campfire_tf==false){
+	if(hit.gameObject.tag=="campfire" && inventory.havematch==false && !campfire_tf){
 		if(!wenzi_bl.enabled){
 			wenzi_bl.enabled=true;
 		}
