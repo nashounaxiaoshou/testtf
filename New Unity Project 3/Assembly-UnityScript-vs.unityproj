@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>d:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>d:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -50,6 +50,9 @@
      <Compile Include="Assets\scripts\3_3\button.js" />
      <Compile Include="Assets\scripts\3_3\raycast1.js" />
      <Compile Include="Assets\scripts\3_3\xuanzhuan.js" />
+     <Compile Include="Assets\scripts\3_4\rorateAround.js" />
+     <Compile Include="Assets\scripts\3_5\003.js" />
+     <Compile Include="Assets\scripts\3_5\arr.js" />
      <Compile Include="Assets\scripts\coconut_remove.js" />
      <Compile Include="Assets\scripts\coconut_thrower.js" />
      <Compile Include="Assets\scripts\coconutwin.js" />
