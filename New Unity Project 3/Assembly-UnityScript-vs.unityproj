@@ -53,6 +53,7 @@
      <Compile Include="Assets\scripts\3_4\rorateAround.js" />
      <Compile Include="Assets\scripts\3_5\003.js" />
      <Compile Include="Assets\scripts\3_5\arr.js" />
+     <Compile Include="Assets\scripts\3_5\while.js" />
      <Compile Include="Assets\scripts\coconut_remove.js" />
      <Compile Include="Assets\scripts\coconut_thrower.js" />
      <Compile Include="Assets\scripts\coconutwin.js" />

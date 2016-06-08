@@ -1,14 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\3_5\003.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\3_5\while.js">
     <Files>
+      <File FileName="Assets\scripts\3_5\while.js" Line="58" Column="1" />
+      <File FileName="Assets\scripts\3_5\while.js" Line="69" Column="2" />
       <File FileName="Assets\scripts\3_3\xuanzhuan.js" Line="1" Column="1" />
       <File FileName="Assets\scripts\player\inventory.js" Line="1" Column="1" />
       <File FileName="Assets\scripts\player\playercollisions.js" Line="1" Column="1" />
       <File FileName="Assets\scripts\3_3\button.js" Line="1" Column="1" />
       <File FileName="Assets\scripts\moon.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\3_4\rorateAround.js" Line="10" Column="68" />
-      <File FileName="Assets\scripts\3_5\003.js" Line="15" Column="24" />
+      <File FileName="Assets\scripts\3_4\rorateAround.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\3_5\003.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\3_5\arr.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
