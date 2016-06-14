@@ -1,9 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\3_5\while.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\301\menu_play.js">
     <Files>
-      <File FileName="Assets\scripts\3_5\while.js" Line="58" Column="1" />
-      <File FileName="Assets\scripts\3_5\while.js" Line="69" Column="2" />
+      <File FileName="Assets\scripts\301\menu_play.js" Line="23" Column="9" />
+      <File FileName="Assets\scripts\301\menu_play.js" Line="25" Column="2" />
+      <File FileName="Assets\scripts\3_5\while.js" Line="1" Column="1" />
       <File FileName="Assets\scripts\3_3\xuanzhuan.js" Line="1" Column="1" />
       <File FileName="Assets\scripts\player\inventory.js" Line="1" Column="1" />
       <File FileName="Assets\scripts\player\playercollisions.js" Line="1" Column="1" />
