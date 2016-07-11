@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\player\doormanager.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\8_6\guitest.js">
     <Files>
-      <File FileName="Assets\scripts\301\menu_play.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\player\doormanager.js" Line="64" Column="30" />
+      <File FileName="Assets\scripts\8_6\guitest.js" Line="21" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

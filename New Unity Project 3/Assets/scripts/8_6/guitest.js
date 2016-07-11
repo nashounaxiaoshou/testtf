@@ -18,7 +18,7 @@ function domywindow(winid:int){
 	GUILayout.BeginVertical();
 	// 控件间隔大小
 	GUILayout.Space(8);
-	// 按钮文字 应用 mybuttonskin
+	// 按钮文字 应用 mybuttonskin的样式
 	GUILayout.Button("","mybuttonskin");
 	// 结束垂直布局
 	GUILayout.EndVertical();
